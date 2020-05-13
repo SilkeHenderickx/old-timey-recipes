@@ -1,0 +1,67 @@
+.card {
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+  background: linear-gradient(to bottom, #fff6e8 29px, #cee9ea 1px);
+  margin: 50px;
+  background-size: 100% 30px;
+  padding-left: 100px;
+  border-radius: 1rem;
+  }
+  .card::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 70px;
+    height: 100%;
+    width: 1px;
+    background: #de685f;
+  }
+.img-container{
+  padding-left: 0px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  height: 390px;
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+h1, h2, h3, p{
+  margin-bottom: 0px;
+}
+
+ul{
+  margin-bottom: 14px;
+  padding-left: 20px;
+  list-style-position: inside;
+  list-style-type: circle;
+}
+h1{
+  font-size: 60px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  line-height: 60px;
+}
+h2{
+  font-size: 30px;
+  line-height: 30px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+h3{
+  font-size: 25px;
+  line-height: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+h3.sub-ingredientlist{
+  padding-bottom: 0px;
+  padding-top: 15px;
+}
+li, p{
+  font-size: 20px;
+  line-height: 30px;
+}
